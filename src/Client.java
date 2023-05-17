@@ -41,7 +41,5 @@ public class Client extends Person {
         return "Я - клиент";
     }
 
-    public void work(){
-        System.out.println("I am working");
-    }
+
 }
