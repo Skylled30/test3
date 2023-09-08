@@ -2,6 +2,7 @@ public class Employee extends Person {
 
     String position;
     int salary;
+    int something;
 
     public Employee(String name, String surname, int age, String position, int salary) {
         super(name, surname, age);
@@ -28,6 +29,10 @@ public class Employee extends Person {
 
     public void setSalary(int salary) {
         this.salary = salary;
+    }
+
+    public int getSomething() {
+        return something;
     }
 
     @Override
